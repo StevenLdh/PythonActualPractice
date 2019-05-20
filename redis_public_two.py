@@ -11,4 +11,4 @@ obj.publish('fm104.5','hello')
 '''
 from RedisHelper import RedisHelper
 obj = RedisHelper()
-obj.public('hello steven!')
+obj.public('hello steven two!')
