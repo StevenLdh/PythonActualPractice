@@ -25,6 +25,8 @@ r.set('name','steven')
 print(r.get('name'))
 '''
 
+print(r.get('name'))
+
 # 管道
 '''
 pipe = r.pipeline(transaction=True)
