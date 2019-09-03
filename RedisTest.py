@@ -18,12 +18,12 @@ r = redis.Redis(host=host,port=port)
 使用连接池
 '''
 r = redis.Redis(connection_pool=pool)
-
 '''
 # 设置并获取数据
 r.set('name','steven')
 print(r.get('name'))
 '''
+r.set("name","steven1")
 
 print(r.get('name'))
 
